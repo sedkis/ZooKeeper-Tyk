@@ -1,9 +1,10 @@
 # ZooKeeper & Tyk
 Integrating ZooKeeper As Service Discovery with Tyk.  
 
-A bit of a hack is involved because ZooKeeper is pretty old.  
+## Why's it necessary?
+A bit of a hack is involved because ZooKeeper is pretty old.  No out of the box REST, and serves all Node data as Base64.
 
-How's it work?
+## How's it work?
 1. First, we standup ZooREST in front of it so we can interact with API calls.  
 2. Then, we configure Tyk to talk to ZooREST via normal API definition.  It takes the Base64 Encoded data and uses a virtual endpoint to decode it into JSON.
 3. We can now use the Tyk API in step #2 as the interface for the Service Discovery.  Just consume as normal.
