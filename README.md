@@ -1,6 +1,9 @@
 # Zoorest 
 [![Build Status](https://travis-ci.org/Difrex/zoorest.svg?branch=master)](https://travis-ci.org/Difrex/zoorest)
 
+# Tyk Gateway
+To be used with Tyk Gateway.  Use the attached API definitions.
+
 Zookeeper HTTP rest API
 <!-- markdown-toc start - Don't edit this section. Run M-x markdown-toc-generate-toc again -->
 **Table of Contents**
