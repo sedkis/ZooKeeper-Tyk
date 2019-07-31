@@ -120,7 +120,7 @@
         "events": {}
       },
       "proxy": {
-        "target_url": "http://127.0.0.1:8889/v1/",
+        "target_url": "",
         "service_discovery": {
           "endpoint_returns_list": false,
           "cache_timeout": 0,
